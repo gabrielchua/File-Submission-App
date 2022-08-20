@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import time
 
-
 st.set_page_config(page_title="Test")
 
 st.info('Hello - this is a prototype')
@@ -19,10 +18,10 @@ if uploaded_file is not None:
 		df = pd.read_excel(uploaded_file)
 		columns_received = list(df.columns)
 		columns_expected = ["ID", "Date_Of_Visit", "Claim"]
-		duplicate_rows = df.duplicated(keep = False)
+		duplicate_rows = df.duplicated(keep=False)
 		time.sleep(1)
   
-	if not np.array_equal(columns_received,columns_expected , equal_nan=False):
+	if not np.array_equal(columns_received, columns_expected, equal_nan=False):
 		st.error('Do not modify the headers of the template.  \n Received: {}   \n Expected: {}'.format(columns_received, columns_expected), icon = "🚨")
 
 	elif np.sum(duplicate_rows):
