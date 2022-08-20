@@ -23,6 +23,6 @@ For now:
 - The portal conducts 2 checks (whether the headers of the file match the given template, and whether there are duplicate rows). Other checks can be easily built too.
 - The portal validates the uploaded file only and doesn’t do anything further. In concept, this can be extended to then transmit the uploaded file to to our emails.
 
-Lastly, it’s worth stressing that this was all built and deployed within one hour : ) 
+Lastly, it’s worth stressing that this was all built and deployed within one hour
 
-“IT systems” don’t have to be expensive nor slow to build
+“IT systems” don’t have to be expensive nor slow to build ;)
