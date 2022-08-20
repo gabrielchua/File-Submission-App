@@ -1,6 +1,6 @@
 # File-Submission-App
 
-Accessible here: https://gabrielchua-file-submission-app-app-fvf9oi.streamlitapp.com/
+https://gabrielchua-file-submission-app-app-fvf9oi.streamlitapp.com/
 
 *Problem Statement:* You send out an excel report template requesting for data (e.g. more than 50 rows), but the data comes back dirty
 *Proposed Solution:* A report submission portal that validates the files (first part) and is easily configurable by the data requester (second part)
